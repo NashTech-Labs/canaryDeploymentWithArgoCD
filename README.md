@@ -33,10 +33,10 @@ Installation of Argo Rollouts controller </br>
 ```kubectl get all -n argo-rollouts```
 
 - Install Argo Rollouts Kubectl plugin with curl for easy interaction with Rollout controller and resources. </br>
-```curl -LO https://github.com/argoproj/argo-rollouts/releases/latest/download/kubectl-argo-rollouts-linux-amd64``` </br>
-```chmod +x ./kubectl-argo-rollouts-linux-amd64``` </br>
-```sudo mv ./kubectl-argo-rollouts-linux-amd64 /usr/local/bin/kubectl-argo-rollouts``` </br>
-```kubectl argo rollouts version``` </br>
+```curl -LO https://github.com/argoproj/argo-rollouts/releases/latest/download/kubectl-argo-rollouts-linux-amd64```. </br>
+```chmod +x ./kubectl-argo-rollouts-linux-amd64``` .</br>
+```sudo mv ./kubectl-argo-rollouts-linux-amd64 /usr/local/bin/kubectl-argo-rollouts``` .</br>
+```kubectl argo rollouts version``` .</br>
 
 - Argo Rollouts comes with its own GUI as well that you can access with the below command </br>
 ```kubectl argo rollouts dashboard``` </br>
