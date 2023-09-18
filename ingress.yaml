@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: rollouts-ingress
+spec:
+  ingressClassName: <nginx> #name of your ingress.
+  rules:
+  - host: "<DOMAIN>" #your domain name or IP of laod-balancer
+    http:
+      paths:
+      - path: "/"
+        pathType: Prefix
+        backend:
+          service:
+            name: rollouts-demo
+            port:
+              number: 80
