@@ -45,8 +45,8 @@ Installation of Argo Rollouts controller </br>
 ## How to deploy 
 
 - To keep things simple, let’s create all these objects for now in the default namespace by running the below commands: </br>
-######  ("argo-rollout/canary/" is the name of the directory  where all my YAML filre placed) </br>
-   ```kubectl apply -f argo-rollout/canary/```
+######    ("argo-rollout/canary/" is the name of the directory  where all my YAML filre placed) </br>
+     ```kubectl apply -f argo-rollout/canary/```
 
 - You would be able to see all the objects been created in the default namespace by running the below command </br>
 ```kubectl get all```
